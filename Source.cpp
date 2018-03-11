@@ -1,4 +1,5 @@
 #include<iostream>
+
 #include "ComplexNumber.h"
 using namespace std;
 
@@ -10,6 +11,6 @@ int main() {
 	k2.set_imaginary(-2);
 	ComplexNumber rez(k1, k2);
 	cout << rez.get() << endl;
-	
+
 	return 0;
 }
